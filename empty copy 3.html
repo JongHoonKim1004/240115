@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bigbox {width:500px; height:400px; margin:10px auto; border:1px solid black;}
+        .bigbox > img{width:100%; height:100%; display: none;}
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bigbox">
+        <img src="img/slider_yesnow_1.jpg" name="bigbox" class="box">
+        <img src="img/slider_yesnow_2.jpg" name="bigbox" class="box">
+        <img src="img/slider_yesnow_3.jpg" name="bigbox" class="box">
+        <img src="img/slider_yesnow_4.jpg" name="bigbox" class="box">
+    </div>
+    <div class="bigbox">
+        <img src="img/slider_yesnow_1.jpg" name="bigbox" class="box2">
+    </div>
+
+    <script>
+        var index = 0;
+        var box=document.getElementsByClassName("box");
+
+
+        function slide(){
+            $(".box").hide();
+            $(".box").eq(index).show();
+            index++
+            if(index >= 4){index = 0;}
+        }
+
+        setInterval(slide,1000);
+
+        $(function(){
+            $(".box").mouseover(function(){
+                $(this).show();
+            }).mouseout(function(){
+                $(this).hide();
+            });
+            $(".box2").mouseover(function(){
+                $(".box").show();
+            });
+        });
+
+    </script>
+</body>
+</html>

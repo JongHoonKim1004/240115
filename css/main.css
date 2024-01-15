@@ -1,0 +1,84 @@
+@charset "utf-8";
+* {font-family: '맑은 고딕','Malgun Gothic',Helvetica,AppleSDGothicNeo,sans-serif;;}
+a {text-decoration: none;}
+hr {display: none;}
+
+
+/*   slider-section     */
+#slider-section {width:1200px; height:423px; margin:10px auto; border:1px solid #d8d8d8;}
+#slider-main-ul {width:109px; height:421px; padding-top: 9px; border-right:1px solid #d8d8d8;}
+#slider-main-ul > li {width:109px; height:40px; line-height: 40px; padding-left:13px;}
+#slider-main-ul > li > a {display: block; color:black; font-weight: bolder;}
+.slider-box {width:1089px; height:421px; position:absolute; top:256px; left:462px;}
+.slider-content {width:100%; height:100%; position: relative; }
+
+/* YES NOW 메인슬라이드*/
+.yesnow-content-img {width:1089px; height:421px; display: none; position:absolute; top:0px; left:0px;}
+.yesnow-content-img > a > img {width:100%; height: 100%;}
+.yesnow-content-title {z-index: 10; height:40px; position:absolute; top:383px; text-align: center; background-color: #f8f8f8; font-size: 12px;}
+.yesnow-content-title > a {color:#666; display: block;}
+#title-1 {left:1px; width:271px;}
+#title-2 {left:273px; width:271px;}
+#title-3 {left:545px; width:271px;}
+#title-4 {left:817px; width:271px;}
+
+/* 메인슬라이드 기본*/
+.slider-sub-ul {width:130px; height:421px; padding-top:10px; border-left:1px solid #d8d8d8; border-right:1px solid #d8d8d8; float:left; padding-left: 10px;}
+.slider-sub-ul-1 {font-size:13px;}
+.slider-sub-ul-1 > li {line-height:20px;}
+.slider-sub-ul-1 > li > a { color:#555;}
+.slider-sub-content {width:959px; height:421px; float:right;}
+.slider-sub-img {width:959px; height:100%; display: none; position:absolute; top:0px; left:130px;}
+.slider-sub-img > a > img {width:100%; height:100%;}
+.slider-sub-img > ul > li {width:319px; height:421px; border-left: 1px solid #d8d8d8; float:left;}
+.slider-sub-img > ul > li > a > img {width:100%; height:100%;}
+.slider-sub-title {z-index: 10; height:40px; position:absolute; top:383px; text-align: center; background-color: #f8f8f8; font-size: 12px;}
+.slider-sub-title > a {color:#666; display: block;}
+
+
+/* 메인슬라이드 국내도서 */
+#title-kor1 {left:131px; width:135px;}
+#title-kor2 {left:268px; width:135px;}
+#title-kor3 {left:405px; width:135px;}
+#title-kor4 {left:542px; width:135px;}
+#title-kor5 {left:679px; width:135px;}
+#title-kor6 {left:816px; width:135px;}
+#title-kor7 {left:953px; width:135px;}
+
+/* 메인슬라이드 해외도서 */
+#title-for1 {left:131px; width:159px;}
+#title-for2 {left:291px; width:159px;}
+#title-for3 {left:451px; width:159px;}
+#title-for4 {left:611px; width:159px;}
+#title-for5 {left:771px; width:159px;}
+#title-for6 {left:931px; width:159px;}
+
+
+/*   secondary-section 기본    */
+.secondary-section {width:1200px; height:390px; margin:10px auto; border:3px dashed black;}
+
+
+/*   multi-select-section 기본*/
+#multi-select-section {width:1200px; height:690px; margin:10px auto; background-color: beige;}
+
+/*    suggest-section    */
+#suggest-section {width:1200px; height:250px; margin:10px auto; background-color: greenyellow;}
+
+/*    youtube-section     */
+#youtube-section {width:1200px; height:600px; margin:10px auto; background-color: purple;}
+
+/*    card-section     */
+#card-section {width:1200px; height:613px; margin:10px auto; background-color: salmon;}
+
+/*    yes-ad-section    */
+#yes-ad-section {width:1200px; height:80px; margin:0 auto;}
+#yes-ad-section > a {width:100%; height:100%;}
+#yes-ad-section > a > img {width:100%; height:100%;}
+
+/*    service-big-section 기본   */
+#service-big-section {width:100%; height:400px; margin:10px 0;}
+#service-section {width:1200px; height:240px; margin:10px auto; background-color: aqua;}
+#notice-section {width:1200px; height:80px; margin:10px auto; background-color: beige;}
+#event-section {width:1200px; height:80px; margin:10px auto 10px; background-color: blue;}
+
+#main-hidden {width:100%; height:30px;}
